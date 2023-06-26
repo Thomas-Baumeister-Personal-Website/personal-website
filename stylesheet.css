@@ -52,4 +52,28 @@ a:hover {
 body {
     background-color: blueviolet;
 }
+textarea {
+    max-width: 30em !important;
+}
+}
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+textarea {
+    width: 60em;
+}
+.transform {
+    width: 300px;
+    transition: width 2s;
+}
+.transform:hover {
+    width: 700px;
+}
+#projects {
+    display:flex;
+    justify-content:center;
+    align-content:center;
 }
