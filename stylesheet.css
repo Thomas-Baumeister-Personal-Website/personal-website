@@ -40,3 +40,40 @@ h1 {
     margin: 30px 90px 30px 90px;
     padding: 10px 0 20px 0;
 }
+nav {
+    display:flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+a:hover {
+    background-color:rgba(255, 205, 247, 0.619)
+}
+@media (max-width:1000px) {
+body {
+    background-color: blueviolet;
+}
+textarea {
+    max-width: 30em !important;
+}
+}
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+textarea {
+    width: 60em;
+}
+.transform {
+    width: 300px;
+    transition: width 2s;
+}
+.transform:hover {
+    width: 700px;
+}
+#projects {
+    display:flex;
+    justify-content:center;
+    align-content:center;
+}
